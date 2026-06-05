@@ -19,7 +19,7 @@ The analysis investigates:
 
 - Asset: JSE All Share Index (ALSI)
 - Frequency: Daily
-- Period: 2016-01-01 to 2026-06-03
+- Period: 2016-01-01 to 2026-06-03 (2603 Total Observations)
 
 ---
 
@@ -126,31 +126,31 @@ The rolling volatility plot highlights periods of increased and decreased market
 ### Daily Return
 
 ```excel
-=(B3/B2-1)*100
+=((C3-C2)/C2)*100
 ```
 
 ### Log Return
 
 ```excel
-=LN(B3/B2)
+=LN(C3/C2)
 ```
 
 ### 7-Day Moving Average
 
 ```excel
-=AVERAGE(B2:B8)
+=AVERAGE(C2:C8)
 ```
 
 ### 30-Day Moving Average
 
 ```excel
-=AVERAGE(B2:B31)
+=AVERAGE(C2:C31)
 ```
 
 ### 90-Day Moving Average
 
 ```excel
-=AVERAGE(B2:B91)
+=AVERAGE(C2:C91)
 ```
 
 ### Rolling Volatility
