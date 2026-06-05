@@ -73,6 +73,8 @@ The JSE ALSI exhibited a clear long-term upward trend throughout the study perio
 
 ### Distribution of JSE ALSI Prices
 
+The distribution of JSE ALSI prices is positively skewed, with most observations concentrated at lower and middle price levels. The long right tail indicates that exceptionally high index values occurred less frequently during the study period.
+
 ![Price Distribution](JSE_ALSI_Price_Distribution.png)
 
 ### Distribution of Log Returns
