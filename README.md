@@ -78,7 +78,9 @@ The analysis investigates:
 
 ### ALSI Price Trend
 
-![Price Trend](images/JSE_ALSI_Price_Trend.png)
+### ALSI Price Trend
+
+![Price Trend](JSE_ALSI_Price_Trend.png)
 
 ### Distribution of ALSI Prices
 
