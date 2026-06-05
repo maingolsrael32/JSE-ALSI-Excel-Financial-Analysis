@@ -19,7 +19,7 @@ The analysis investigates:
 
 - Asset: JSE All Share Index (ALSI)
 - Frequency: Daily
-- Period: 2016–2026
+- Period: 2016-01-01 to 2026-06-03
 
 ---
 
@@ -51,6 +51,8 @@ The analysis investigates:
 
 ## Descriptive Statistics
 
+The JSE ALSI price series displayed positive skewness and moderate kurtosis, indicating a non-symmetric distribution with occasional extreme values. Daily and log returns exhibited high excess kurtosis, suggesting heavy tails and the presence of extreme market movements that deviate from normality.
+
 | Statistic | Price | Daily Return | Log Return |
 |------------|------------:|------------:|------------:|
 | Mean | 68490.6820 | -0.0257 | -0.0003 |
@@ -77,18 +79,24 @@ The distribution of JSE ALSI prices is positively skewed, with most observations
 
 ![Price Distribution](JSE_ALSI_Price_Distribution.png)
 
-### Distribution of Log Returns
+### Distribution of JSE ALSI Log Returns
 
-![Return Distribution](return_distribution.png)
+The distribution of log returns is centered around zero, indicating that small daily changes occurred more frequently than large changes. The presence of heavy tails suggests occasional extreme positive and negative market movements.
 
+![Return Distribution](Log_Return_Distribution.png)
 
-### Moving Average Analysis
+### Moving Average (MA) Analysis
 
-![Moving Average Analysis](moving_average_analysis.png)
+The 7-day, 30-day, and 90-day Moving Averages reveal the underlying trend of the JSE ALSI. While the 7-day moving average responds more quickly to short-term fluctuations, the 30-day and 90-day averages provide smoother representations of the long-term market direction.
+
+![Moving Average Analysis](Moving_Average_Analysis.png)
+
 
 ### Rolling Volatility Analysis
 
-![Volatility Analysis](/volatility_analysis.png)
+The rolling volatility plot highlights periods of increased and decreased market uncertainty. The 7-day volatility responds rapidly to market shocks, whereas the 30-day volatility captures broader and more persistent changes in market risk.
+
+![Volatility Analysis](Rolling_Volatility_Analysis.png)
 
 ---
 
