@@ -63,33 +63,21 @@ The analysis investigates:
 
 ---
 
-## Key Findings
-
-- The ALSI exhibited a strong long-term upward trend.
-- Returns fluctuated around zero throughout the sample period.
-- Return distributions displayed positive skewness.
-- High excess kurtosis indicates the presence of extreme market movements.
-- Moving averages confirmed the underlying market trend.
-- Rolling volatility demonstrated periods of elevated market uncertainty.
-
----
-
 ## Visualizations
 
-### ALSI Price Trend
+### JSE ALSI Price Trend
 
-### ALSI Price Trend
+### JSE ALSI Price Trend
 
 ![Price Trend](JSE_ALSI_Price_Trend.png)
 
-### Distribution of ALSI Prices
+### Distribution of JSE ALSI Prices
 
 ![Price Distribution](images/price_distribution.png)
 
 ### Distribution of Log Returns
 
 ![Return Distribution](images/return_distribution.png)
-
 
 
 ### Moving Average Analysis
@@ -101,6 +89,19 @@ The analysis investigates:
 ![Volatility Analysis](images/volatility_analysis.png)
 
 ---
+
+
+## Key Findings
+
+- The ALSI exhibited a strong long-term upward trend.
+- Returns fluctuated around zero throughout the sample period.
+- Return distributions displayed positive skewness.
+- High excess kurtosis indicates the presence of extreme market movements.
+- Moving averages confirmed the underlying market trend.
+- Rolling volatility demonstrated periods of elevated market uncertainty.
+
+---
+
 
 ## Excel Formulas Used
 
@@ -152,29 +153,6 @@ The analysis investigates:
 =KURT(range)
 ```
 
----
-
-## Repository Structure
-
-```text
-jse-alsi-excel-financial-analysis
-│
-├── README.md
-├── JSE_ALSI_Analysis.xlsx
-├── JSE_ALSI_Report.pdf
-│
-├── data
-│   └── jse_alsi_prices.csv
-│
-└── images
-    ├── price_distribution.png
-    ├── return_distribution.png
-    ├── price_trend.png
-    ├── moving_average_analysis.png
-    └── volatility_analysis.png
-```
-
----
 
 ## Author
 
