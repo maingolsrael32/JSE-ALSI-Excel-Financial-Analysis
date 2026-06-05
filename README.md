@@ -85,6 +85,14 @@ The distribution of log returns is centered around zero, indicating that small d
 
 ![Return Distribution](Log_Return_Distribution.png)
 
+### Log Returns of JSE ALSI
+
+
+The Log Returns fluctuate around zero, indicating that small daily changes were more common than large movements. Noticeable spikes reflect periods of heightened market volatility and uncertainty, while the clustering of fluctuations suggests time-varying volatility. 
+
+![Log Reurns](Log_Return_JSE_ALSI.png)
+
+
 ### Moving Average (MA) Analysis
 
 The 7-day, 30-day, and 90-day Moving Averages reveal the underlying trend of the JSE ALSI. While the 7-day moving average responds more quickly to short-term fluctuations, the 30-day and 90-day averages provide smoother representations of the long-term market direction.
@@ -113,7 +121,7 @@ The rolling volatility plot highlights periods of increased and decreased market
 ---
 
 
-## Excel Formulas Used
+## Methodology and Excel Implementation
 
 ### Daily Return
 
