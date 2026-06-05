@@ -67,26 +67,26 @@ The analysis investigates:
 
 ### JSE ALSI Price Trend
 
-### JSE ALSI Price Trend
+The JSE ALSI exhibited a clear long-term upward trend throughout the study period. Despite short-term fluctuations and temporary declines, the overall movement of the index remained positive.
 
 ![Price Trend](JSE_ALSI_Price_Trend.png)
 
 ### Distribution of JSE ALSI Prices
 
-![Price Distribution](images/price_distribution.png)
+![Price Distribution](JSE_ALSI_Price_Distribution.png)
 
 ### Distribution of Log Returns
 
-![Return Distribution](images/return_distribution.png)
+![Return Distribution](return_distribution.png)
 
 
 ### Moving Average Analysis
 
-![Moving Average Analysis](images/moving_average_analysis.png)
+![Moving Average Analysis](moving_average_analysis.png)
 
 ### Rolling Volatility Analysis
 
-![Volatility Analysis](images/volatility_analysis.png)
+![Volatility Analysis](/volatility_analysis.png)
 
 ---
 
