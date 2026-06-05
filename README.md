@@ -76,6 +76,10 @@ The analysis investigates:
 
 ## Visualizations
 
+### ALSI Price Trend
+
+![Price Trend](images/JSE ALSI Price Trend.png)
+
 ### Distribution of ALSI Prices
 
 ![Price Distribution](images/price_distribution.png)
@@ -84,9 +88,7 @@ The analysis investigates:
 
 ![Return Distribution](images/return_distribution.png)
 
-### ALSI Price Trend
 
-![Price Trend](images/price_trend.png)
 
 ### Moving Average Analysis
 
